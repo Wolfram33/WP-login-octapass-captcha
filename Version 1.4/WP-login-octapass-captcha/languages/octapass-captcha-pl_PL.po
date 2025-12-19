@@ -1,0 +1,83 @@
+msgid "Anzahl der Farben pro Aufgabe (2-8)"
+msgstr "Liczba kolorów na zadanie (2-8)"
+
+msgid "Konfigurieren Sie die Schwierigkeit des Captchas."
+msgstr "Skonfiguruj poziom trudności captchy."
+
+msgid "Wählen Sie, welche Farben im Captcha verwendet werden sollen."
+msgstr "Wybierz, które kolory mają być używane w captchy."
+
+msgid "Passen Sie das Aussehen des Captchas an."
+msgstr "Dostosuj wygląd captchy."
+
+msgid "Geschützt durch %s"
+msgstr "Chronione przez %s"
+
+msgid "Sicherheitsprüfung"
+msgstr "Sprawdzenie bezpieczeństwa"
+
+msgid "Klicken Sie die Farben in der angegebenen Anzahl:"
+msgstr "Kliknij kolory w podanej liczbie:"
+
+msgid "Bitte wählen Sie im Adminbereich mindestens %d aktive Farben für das Captcha aus!"
+msgstr "Wybierz co najmniej %d aktywnych kolorów dla captchy w panelu administracyjnym!"
+
+msgid "Neue Aufgabe"
+msgstr "Nowe zadanie"
+
+msgid "Es gab ein Problem beim Generieren der Aufgabe. Bitte versuchen Sie es erneut."
+msgstr "Wystąpił problem podczas generowania zadania. Spróbuj ponownie."
+
+msgid "Klicks pro Farbe (1-5)"
+msgstr "Kliknięcia na kolor (1-5)"
+
+msgid "Wählen Sie mindestens so viele Farben aus, wie die minimale Anzahl Farben im Captcha beträgt."
+msgstr "Wybierz co najmniej tyle kolorów, ile wynosi minimalna liczba kolorów w captchy."
+
+msgid "Zeigt \"Geschützt durch OctaPass-Captcha\" über dem Captcha an."
+msgstr "Wyświetla \"Chronione przez OctaPass-Captcha\" nad captchą."
+
+msgid "Wenn du das Branding entfernst, wäre es eine gute Idee, mir einen Kaffee zu spendieren."
+msgstr "Jeśli usuniesz branding, byłoby miło postawić mi kawę."
+
+msgid "Anweisungstext für die Benutzer."
+msgstr "Tekst instrukcji dla użytkowników."
+
+msgid "Das Captcha ist nicht korrekt gelöst. Bitte versuchen Sie es erneut."
+msgstr "Captcha nie została poprawnie rozwiązana. Spróbuj ponownie."
+
+msgid "Falsche Farbe oder Reihenfolge! Das Captcha wurde zurückgesetzt."
+msgstr "Zły kolor lub kolejność! Captcha została zresetowana."
+
+msgid "Rot"
+msgstr "Czerwony"
+
+msgid "Blau"
+msgstr "Niebieski"
+
+msgid "Grün"
+msgstr "Zielony"
+
+msgid "Orange"
+msgstr "Pomarańczowy"
+
+msgid "Schwarz"
+msgstr "Czarny"
+
+msgid "Weiß"
+msgstr "Biały"
+
+msgid "Gelb"
+msgstr "Żółty"
+
+msgid "Türkis"
+msgstr "Turkusowy"
+
+msgid "Hinweis:"
+msgstr "Uwaga:"
+
+msgid "Die Vorschau ist nur ein ungefähres Abbild des tatsächlich generierten Captchas."
+msgstr "Podgląd jest jedynie przybliżonym odwzorowaniem faktycznie wygenerowanego captcha."
+
+msgid "Aufgrund der dynamischen Aufgaben-Erzeugung und vieler Zufallsereignisse ist keine 1:1-Vorschau möglich."
+msgstr "Ze względu na dynamiczne generowanie zadań i wiele losowych zdarzeń nie jest możliwy podgląd 1:1."

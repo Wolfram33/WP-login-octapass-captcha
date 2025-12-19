@@ -1,0 +1,83 @@
+msgid "Anzahl der Farben pro Aufgabe (2-8)"
+msgstr "Number of colors per task (2-8)"
+
+msgid "Konfigurieren Sie die Schwierigkeit des Captchas."
+msgstr "Configure the difficulty of the captcha."
+
+msgid "Wählen Sie, welche Farben im Captcha verwendet werden sollen."
+msgstr "Select which colors should be used in the captcha."
+
+msgid "Passen Sie das Aussehen des Captchas an."
+msgstr "Customize the appearance of the captcha."
+
+msgid "Geschützt durch %s"
+msgstr "Protected by %s"
+
+msgid "Sicherheitsprüfung"
+msgstr "Security check"
+
+msgid "Klicken Sie die Farben in der angegebenen Anzahl:"
+msgstr "Click the colors in the specified quantity:"
+
+msgid "Bitte wählen Sie im Adminbereich mindestens %d aktive Farben für das Captcha aus!"
+msgstr "Please select at least %d active colors for the captcha in the admin area!"
+
+msgid "Neue Aufgabe"
+msgstr "New task"
+
+msgid "Es gab ein Problem beim Generieren der Aufgabe. Bitte versuchen Sie es erneut."
+msgstr "There was a problem generating the task. Please try again."
+
+msgid "Klicks pro Farbe (1-5)"
+msgstr "Clicks per color (1-5)"
+
+msgid "Wählen Sie mindestens so viele Farben aus, wie die minimale Anzahl Farben im Captcha beträgt."
+msgstr "Select at least as many colors as the minimum number of colors required in the captcha."
+
+msgid "Zeigt \"Geschützt durch OctaPass-Captcha\" über dem Captcha an."
+msgstr "Displays \"Protected by OctaPass Captcha\" above the captcha."
+
+msgid "Wenn du das Branding entfernst, wäre es eine gute Idee, mir einen Kaffee zu spendieren."
+msgstr "If you remove the branding, it would be a nice idea to buy me a coffee."
+
+msgid "Anweisungstext für die Benutzer."
+msgstr "Instruction text for the users."
+
+msgid "Das Captcha ist nicht korrekt gelöst. Bitte versuchen Sie es erneut."
+msgstr "The captcha was not solved correctly. Please try again."
+
+msgid "Falsche Farbe oder Reihenfolge! Das Captcha wurde zurückgesetzt."
+msgstr "Wrong color or order! The captcha has been reset."
+
+msgid "Rot"
+msgstr "Red"
+
+msgid "Blau"
+msgstr "Blue"
+
+msgid "Grün"
+msgstr "Green"
+
+msgid "Orange"
+msgstr "Orange"
+
+msgid "Schwarz"
+msgstr "Black"
+
+msgid "Weiß"
+msgstr "White"
+
+msgid "Gelb"
+msgstr "Yellow"
+
+msgid "Türkis"
+msgstr "Turquoise"
+
+msgid "Hinweis:"
+msgstr "Note:"
+
+msgid "Die Vorschau ist nur ein ungefähres Abbild des tatsächlich generierten Captchas."
+msgstr "The preview is only an approximate representation of the actually generated captcha."
+
+msgid "Aufgrund der dynamischen Aufgaben-Erzeugung und vieler Zufallsereignisse ist keine 1:1-Vorschau möglich."
+msgstr "Due to dynamic task generation and many random events, a 1:1 preview is not possible."
