@@ -2,7 +2,7 @@
 
 **Innovatives, farbbasiertes Captcha-System für sicheren und barrierefreien WordPress-Login-Schutz.**
 
-![WP Login OctaPass Captcha Screenshot](screenshot-wp-octa-pass..png)
+![WP Login OctaPass Captcha Screenshot](screenshot-wp-octa-pass.png)
 
 ## Beschreibung
 
