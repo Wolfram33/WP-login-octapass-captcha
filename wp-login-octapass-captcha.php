@@ -6,8 +6,7 @@
  * Version: 1.4
  * Author: Rob de Roy
  * Author URI: https://octapass.de
- * License: MIT
- * License URI: https://opensource.org/licenses/MIT
+ * License: WUGSL https://wolframgruppe.de/wugsl.html
  * Text Domain: octapass-captcha
  */
 

@@ -6,7 +6,6 @@ Tested up to: 6.6
 Stable tag: 1.4
 Requires PHP: 7.0
 License: MIT
-License URI: https://opensource.org/licenses/MIT
 
 Innovatives, farbbasiertes Captcha-System für sicheren und barrierefreien WordPress-Login-Schutz.
 
@@ -14,9 +13,6 @@ Innovatives, farbbasiertes Captcha-System für sicheren und barrierefreien WordP
 
 **WP Login OctaPass Captcha** bietet eine benutzerfreundliche, innovative und barrierefreie Alternative zu herkömmlichen Text- oder Bild-Captchas. Anstatt komplizierte Texte oder verschwommene Bilder zu entschlüsseln, wählen Benutzer Farben aus, um ihre Identität zu verifizieren. Dieses Plugin schützt deine WordPress-Website effektiv vor Brute-Force-Angriffen, Spam-Bots und unbefugtem Zugriff, ohne die Benutzererfahrung zu beeinträchtigen.
 
-== Screenshots ==
-
-1. Login-Seite mit OctaPass Captcha - screenshot-wp-octa-pass.png
 
 ### Anwendungsbereiche:
 - Schutz des WordPress-Login-Bereichs (WP Login OctaPass Captcha hält Dir die Bots vom Hals.)
