@@ -5,8 +5,8 @@ Requires at least: 5.0
 Tested up to: 6.6
 Stable tag: 1.4
 Requires PHP: 7.0
-License: WUGSL
-License URI: https://wolframgruppe.de/wugsl.html
+License: MIT
+License URI: https://opensource.org/licenses/MIT
 
 Innovatives, farbbasiertes Captcha-System für sicheren und barrierefreien WordPress-Login-Schutz.
 
