@@ -54,10 +54,6 @@ Innovatives, farbbasiertes Captcha-System für sicheren und barrierefreien WordP
 = 1.0 =
 Erste Version des Plugins. Stelle sicher, dass du die neueste WordPress- und PHP-Version verwendest, um optimale Kompatibilität zu gewährleisten.
 
-== Support ==
-
-https://74help.de
-
 == Datenschutz ==
 
 WP-Login OctaPass Captcha speichert keine personenbezogenen Daten der Benutzer. Alle Daten, die während der Captcha-Verifizierung generiert werden, sind temporär und werden nach Abschluss der Sitzung gelöscht. Das Plugin verwendet Cookies ausschließlich für technische Zwecke, um die Funktionalität zu gewährleisten. Weitere Details findest du in unserer Datenschutzerklärung auf [octapass.de](https://octapass.de).
