@@ -57,7 +57,7 @@ WP-Login OctaPass Captcha speichert keine personenbezogenen Daten der Benutzer. 
 |---|---|
 | **Contributors** | Rob de Roy (Wolfram Consult GmbH & Co. KG) |
 | **Tags** | captcha, security, login, colors, accessibility, wordpress-security, user-authentication, brute-force-protection, spam-prevention |
-| **Requires at least** | WordPress 5.0 |
+| **Requires at least** | WordPress 6.0 |
 | **Tested up to** | WordPress 6.6 |
 | **Stable tag** | 1.4 |
 | **Requires PHP** | 7.0 |
