@@ -1,0 +1,83 @@
+msgid "Anzahl der Farben pro Aufgabe (2-8)"
+msgstr "Número de colores por tarea (2-8)"
+
+msgid "Konfigurieren Sie die Schwierigkeit des Captchas."
+msgstr "Configura la dificultad del captcha."
+
+msgid "Wählen Sie, welche Farben im Captcha verwendet werden sollen."
+msgstr "Elige qué colores se deben usar en el captcha."
+
+msgid "Passen Sie das Aussehen des Captchas an."
+msgstr "Personaliza la apariencia del captcha."
+
+msgid "Geschützt durch %s"
+msgstr "Protegido por %s"
+
+msgid "Sicherheitsprüfung"
+msgstr "Verificación de seguridad"
+
+msgid "Klicken Sie die Farben in der angegebenen Anzahl:"
+msgstr "Haz clic en los colores en la cantidad indicada:"
+
+msgid "Bitte wählen Sie im Adminbereich mindestens %d aktive Farben für das Captcha aus!"
+msgstr "¡Selecciona al menos %d colores activos para el captcha en el área de administración!"
+
+msgid "Neue Aufgabe"
+msgstr "Nueva tarea"
+
+msgid "Es gab ein Problem beim Generieren der Aufgabe. Bitte versuchen Sie es erneut."
+msgstr "Hubo un problema al generar la tarea. Por favor, inténtalo de nuevo."
+
+msgid "Klicks pro Farbe (1-5)"
+msgstr "Clics por color (1-5)"
+
+msgid "Wählen Sie mindestens so viele Farben aus, wie die minimale Anzahl Farben im Captcha beträgt."
+msgstr "Selecciona al menos tantos colores como el número mínimo requerido en el captcha."
+
+msgid "Zeigt \"Geschützt durch OctaPass-Captcha\" über dem Captcha an."
+msgstr "Muestra \"Protegido por OctaPass-Captcha\" encima del captcha."
+
+msgid "Wenn du das Branding entfernst, wäre es eine gute Idee, mir einen Kaffee zu spendieren."
+msgstr "Si eliminas la marca, sería una buena idea invitarme a un café."
+
+msgid "Anweisungstext für die Benutzer."
+msgstr "Texto de instrucciones para los usuarios."
+
+msgid "Das Captcha ist nicht korrekt gelöst. Bitte versuchen Sie es erneut."
+msgstr "El captcha no se resolvió correctamente. Por favor, inténtalo de nuevo."
+
+msgid "Falsche Farbe oder Reihenfolge! Das Captcha wurde zurückgesetzt."
+msgstr "¡Color o secuencia incorrecta! El captcha ha sido reiniciado."
+
+msgid "Rot"
+msgstr "Rojo"
+
+msgid "Blau"
+msgstr "Azul"
+
+msgid "Grün"
+msgstr "Verde"
+
+msgid "Orange"
+msgstr "Naranja"
+
+msgid "Schwarz"
+msgstr "Negro"
+
+msgid "Weiß"
+msgstr "Blanco"
+
+msgid "Gelb"
+msgstr "Amarillo"
+
+msgid "Türkis"
+msgstr "Turquesa"
+
+msgid "Hinweis:"
+msgstr "Nota:"
+
+msgid "Die Vorschau ist nur ein ungefähres Abbild des tatsächlich generierten Captchas."
+msgstr "La vista previa es solo una representación aproximada del captcha realmente generado."
+
+msgid "Aufgrund der dynamischen Aufgaben-Erzeugung und vieler Zufallsereignisse ist keine 1:1-Vorschau möglich."
+msgstr "Debido a la generación dinámica de tareas y muchos eventos aleatorios, no es posible una vista previa 1:1."
