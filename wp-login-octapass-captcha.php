@@ -3,10 +3,10 @@
  * Plugin Name: WP Login OctaPass Captcha
  * Plugin URI: https://octapass.de
  * Description: Farbbasiertes Captcha-System für WordPress Login - Kostenlos von OctaPass
- * Version: 1.4
+ * Version: 1.5
  * Author: Rob de Roy
  * Author URI: https://octapass.de
- * License: WUGSL https://wolframgruppe.de/wugsl.html
+* License: MIT
  * Text Domain: octapass-captcha
  */
 
@@ -18,8 +18,44 @@ if (!defined('ABSPATH')) {
 // Session frühzeitig starten, da auf der Login-Seite keine Session automatisch gestartet wird.
 // Dies muss vor jeglicher Ausgabe geschehen.
 add_action('init', function() {
-    if (!session_id()) {
+    if (session_status() === PHP_SESSION_NONE) {
+        // Cookie-Parameter explizit setzen für Firefox-Kompatibilität
+        // Firefox erfordert SameSite-Attribut, sonst können Session-Cookies bei AJAX-Anfragen
+        // ohne vorherige Benutzerinteraktion verloren gehen
+        $secure = is_ssl();
+        $httponly = true;
+        $samesite = 'Lax'; // 'Strict' würde AJAX von admin-ajax.php blockieren
+        
+        // PHP 7.3+ unterstützt SameSite direkt
+        if (version_compare(PHP_VERSION, '7.3.0', '>=')) {
+            session_set_cookie_params([
+                'lifetime' => 0,
+                'path' => COOKIEPATH ?: '/',
+                'domain' => COOKIE_DOMAIN ?: '',
+                'secure' => $secure,
+                'httponly' => $httponly,
+                'samesite' => $samesite
+            ]);
+        } else {
+            // Fallback für ältere PHP-Versionen
+            session_set_cookie_params(
+                0,
+                (COOKIEPATH ?: '/') . '; SameSite=' . $samesite,
+                COOKIE_DOMAIN ?: '',
+                $secure,
+                $httponly
+            );
+        }
+        
         session_start();
+        
+        // Session-Cookie erneut senden, um sicherzustellen, dass Browser es akzeptieren
+        // Dies ist besonders wichtig für Firefox bei frischen Sessions
+        if (!isset($_SESSION['octapass_session_initialized'])) {
+            $_SESSION['octapass_session_initialized'] = true;
+            // Regenerate Session ID bei erster Initialisierung für Sicherheit
+            session_regenerate_id(false);
+        }
     }
 }, 1); // Hohe Priorität, um sicherzustellen, dass es früh genug läuft.
 

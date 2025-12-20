@@ -1,0 +1,16 @@
+
+    Directory: J:\working\eigene-software-entwicklungen\octapass\wp-plugin-admin-login\1.5\WP-login-octapass-captcha
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          20.12.2025    18:10                languages
+-a---          20.12.2025    18:10            565 admin-preview.js
+-a---          20.12.2025    18:10          20021 octapass-captcha-banner.png
+-a---          20.12.2025    18:10           3223 octapass-captcha.css
+-a---          20.12.2025    18:10           9546 octapass-captcha.js
+-a---          20.12.2025    18:10           4215 OctaPass-Captcha.png
+-a---          20.12.2025    18:14           3554 README.md
+-a---          20.12.2025    18:10         241102 screenshot-octapass-captcha-admin.jpg
+-a---          20.12.2025    18:10        2695168 screenshot-wp-octa-pass.png
+-a---          20.12.2025    18:10          39352 wp-login-octapass-captcha.php
+

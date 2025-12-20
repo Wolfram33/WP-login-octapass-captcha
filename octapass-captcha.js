@@ -126,6 +126,10 @@ jQuery(document).ready(function($) {
                 action: 'octapass_click',
                 color: clickedColor
             },
+            // Credentials explizit senden für Firefox-Kompatibilität
+            xhrFields: {
+                withCredentials: true
+            },
             success: function(response) {
                 if (response.success) {
                     var task = response.data.task || {};
@@ -156,6 +160,10 @@ jQuery(document).ready(function($) {
             type: 'POST',
             data: {
                 action: 'octapass_reset'
+            },
+            // Credentials explizit senden für Firefox-Kompatibilität
+            xhrFields: {
+                withCredentials: true
             },
             success: function(response) {
                 if (response.success) {
