@@ -25,6 +25,17 @@
 
 ## Changelog
 
+
+### 1.5
+- Kompatibilität mit WordPress 6.6 getestet
+- Optionale Branding-Anzeige über dem Captcha
+- Verbesserte Session-Kompatibilität (SameSite, Firefox)
+- Fortschrittsbalken und neue Optik
+- Admin-Vorschau für Captcha
+- Fehlerbehandlung bei zu wenig Farben
+- Verbesserte Barrierefreiheit und Usability
+- Diverse Bugfixes und Optimierungen
+
 ### 1.4
 - Neue PO und MO hinzugefügt
 
