@@ -27,7 +27,7 @@
 
 
 ### 1.5
-- Kompatibilität mit WordPress 6.6 getestet
+- Kompatibilität mit WordPress 6.9 getestet
 - Optionale Branding-Anzeige über dem Captcha
 - Verbesserte Session-Kompatibilität (SameSite, Firefox)
 - Fortschrittsbalken und neue Optik
@@ -69,8 +69,8 @@ WP-Login OctaPass Captcha speichert keine personenbezogenen Daten der Benutzer. 
 | **Contributors** | Rob de Roy (Wolfram Consult GmbH & Co. KG) |
 | **Tags** | captcha, security, login, colors, accessibility, wordpress-security, user-authentication, brute-force-protection, spam-prevention |
 | **Requires at least** | WordPress 6.0 |
-| **Tested up to** | WordPress 6.6 |
-| **Stable tag** | 1.4 |
+| **Tested up to** | WordPress 6.9 |
+| **Stable tag** | 1.5 |
 | **Requires PHP** | 7.0 |
 | **License** | MIT |
 
